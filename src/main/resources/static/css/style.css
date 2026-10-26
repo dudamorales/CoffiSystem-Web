@@ -1,0 +1,1383 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+    background: white;
+}
+
+.lateral {
+    width: 29%;
+    padding: 25px 18px;
+    background: linear-gradient(to right, pink, #ffda7b);
+}
+
+.lateral img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin: -50px auto 70px;
+}
+
+.lateral h1 {
+    color: #ffe2e8;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-top: -20px;
+}
+
+.login {
+    width: 71%;
+    margin: auto;
+}
+
+#formLogin {
+    width: 75%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 35px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #f5f5f5;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container-cadastro {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f8bd72;
+}
+
+.espaco-logo {
+    width: 100px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    margin-left: 30%;
+}
+
+.cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.cadastro {
+    padding: 40px 20px;
+}
+
+.cadastro h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 65px;
+}
+
+
+#formCadastro {
+    width: 540px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+#formCadastro {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -85px;
+}
+
+#formCadastro .campo {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+#formCadastro .campo label {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+}
+
+#formCadastro .campo input,
+#formCadastro .campo select {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+
+.botoes-cadastro {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 185px;
+    gap: 15px;
+}
+
+
+.botoes-cadastro button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#mensagemCadastro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+}
+
+.espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+.menu-contabilidade {
+    position: relative;
+    min-height: calc(100vh - 135px);
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-contabilidade h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opcoes-contabilidade {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.opcoes-contabilidade button {
+    width: 300px;
+    max-width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-voltar {
+    position: fixed;
+    bottom: 25px;
+    left: 30px;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.menu-gerente {
+    position: relative;
+    min-height: calc(100vh - 135px);
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-gerente h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opcoes-gerente {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.opcoes-gerente button {
+    width: 300px;
+    max-width: 80vw;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu-vendedor {
+    position: relative;
+    min-height: calc(100vh - 135px);
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-vendedor h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opcoes-vendedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.opcoes-vendedor button {
+    width: 300px;
+    max-width: 80vw;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-fornecedor {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+}
+
+.container-fornecedor .cabecalho {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f8bd72;
+}
+
+.container-fornecedor .espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+}
+
+.container-fornecedor .espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+.container-fornecedor .cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.container-fornecedor .cadastro {
+    padding: 40px 20px;
+}
+
+.container-fornecedor .cadastro h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 65px;
+}
+
+#formFornecedor {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    left: -70px;
+}
+
+#formFornecedor .campo {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+#formFornecedor .campo label {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+}
+
+#formFornecedor .campo input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+#formFornecedor .botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formFornecedor .botoes-cadastro button[type="submit"] {
+    position: relative;
+    left: 60px;
+    display: block;
+    margin: 0;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container-fornecedor .botao-voltar {
+    position: fixed;
+    bottom: 10px;
+    left: 14px;
+    padding: 7px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .container-fornecedor .espaco-logo {
+        margin-left: 5%;
+    }
+
+    .container-fornecedor .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    #formFornecedor {
+        width: 100%;
+    }
+
+    #formFornecedor .campo {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+
+    #formFornecedor .campo label {
+        text-align: left;
+    }
+
+    #formFornecedor .botoes-cadastro {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .container-fornecedor .botao-voltar {
+        bottom: 10px;
+        left: 14px;
+    }
+}
+
+    .container-historico {
+        margin: 0;
+        min-height: 100vh;
+        background: white;
+    }
+
+    .container-historico .cabecalho {
+        display: flex;
+        align-items: center;
+        height: 55px;
+        background: #f8bd72;
+    }
+
+    .container-historico .espaco-logo {
+        width: 100px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        margin-left: 30%;
+    }
+
+    .container-historico .espaco-logo img {
+        width: 140%;
+        height: 140%;
+        object-fit: contain;
+    }
+
+    .container-historico .cabecalho h1 {
+        margin-left: 12px;
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    .container-historico .historico {
+        padding: 40px 20px;
+    }
+
+    .container-historico .historico h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0 0 25px;
+    }
+
+    .busca-vendas {
+        display: flex;
+        align-items: center;
+        width: 650px;
+        max-width: 100%;
+        margin: 0 auto 30px;
+        gap: 20px;
+    }
+
+    .busca-vendas label {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .busca-vendas input {
+        flex: 1;
+        min-width: 0;
+        height: 39px;
+        padding: 8px 12px;
+        margin: 0;
+        box-sizing: border-box;
+        background: #f3f3f3;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .tabela-vendas {
+        width: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow-x: auto;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+    }
+
+    .tabela-vendas table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+    }
+
+    .tabela-vendas th {
+        height: 30px;
+        background: #f7a6d3;
+        color: white;
+        font-weight: bold;
+        border: 1px solid #ddd;
+    }
+
+    .tabela-vendas td {
+        height: 29px;
+        padding: 0 6px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .tabela-vendas tbody tr:nth-child(even) {
+        background: #eee;
+    }
+
+    .tabela-vendas tbody tr:nth-child(odd) {
+        background: white;
+    }
+
+    .container-historico .botao-voltar {
+        position: fixed;
+        bottom: 10px;
+        left: 14px;
+        padding: 7px 32px;
+        border: none;
+        border-radius: 8px;
+        background: #f3f3f3;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+        .container-historico .espaco-logo {
+            margin-left: 5%;
+        }
+
+        .container-historico .cabecalho h1 {
+            font-size: 22px;
+        }
+
+        .busca-vendas {
+            gap: 10px;
+        }
+
+        .container-historico .botao-voltar {
+            left: 20px;
+        }
+    }
+    
+
+    .container-cadastro-produto {
+        margin: 0;
+        min-height: 100vh;
+        background: white;
+    }
+
+    .container-cadastro-produto .cabecalho {
+        display: flex;
+        align-items: center;
+        height: 55px;
+        background: #f8bd72;
+    }
+
+    .container-cadastro-produto .espaco-logo {
+        width: 100px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        margin-left: 30%;
+    }
+
+    .container-cadastro-produto .espaco-logo img {
+        width: 140%;
+        height: 140%;
+        object-fit: contain;
+    }
+
+    .container-cadastro-produto .cabecalho h1 {
+        margin-left: 12px;
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    .cadastro-produto {
+        padding: 40px 20px;
+    }
+
+    .cadastro-produto h2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 65px;
+    }
+
+    #formProduto {
+        width: 540px;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: -85px;
+    }
+
+    #formProduto .campo {
+        display: grid;
+        grid-template-columns: 170px 1fr;
+        column-gap: 15px;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+
+    #formProduto .campo label {
+        display: block;
+        text-align: right;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    #formProduto .campo input,
+    #formProduto .campo select {
+        display: block;
+        width: 100%;
+        height: 30px;
+        padding: 5px 10px;
+        margin: 0;
+        box-sizing: border-box;
+        background: #f3f3f3;
+        border: none;
+        border-radius: 8px;
+        font-family: Arial, sans-serif;
+    }
+
+    #formProduto .botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    margin: 85px 0 0 185px;
+}
+
+#formProduto .botoes-cadastro button:first-child {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+}
+
+#formProduto .botoes-cadastro button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container-cadastro-produto .espaco-logo {
+        margin-left: 5%;
+    }
+
+    .container-cadastro-produto .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    #formProduto {
+        width: 100%;
+        left: 0;
+    }
+
+    #formProduto .campo {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+
+    #formProduto .campo label {
+        text-align: left;
+    }
+}
+
+.container-promocoes {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+}
+
+.container-promocoes .cabecalho {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f8bd72;
+}
+
+.container-promocoes .espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+}
+
+.container-promocoes .espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+.container-promocoes .cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.cadastro-promocoes {
+    padding: 40px 20px;
+}
+
+.cadastro-promocoes h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 55px;
+    position: relative;
+    left: -15px;
+}
+
+#formPromocao {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -90px;
+}
+
+#formPromocao .campo {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#formPromocao .campo label {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+}
+
+#formPromocao .campo input,
+#formPromocao .campo select {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+#formPromocao .botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4cm;
+    margin: 185px 0 0 80px;
+}
+
+#formPromocao .botoes-cadastro button {
+    min-width: 112px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container-promocoes .espaco-logo {
+        margin-left: 5%;
+    }
+
+    .container-promocoes .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    #formPromocao {
+        width: 100%;
+        left: 0;
+    }
+
+    #formPromocao .campo {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+
+    #formPromocao .campo label {
+        text-align: left;
+    }
+
+    #formPromocao .botoes-cadastro {
+        margin: 60px 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.container-tabela-promocoes {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+    position: relative;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+.container-tabela-promocoes .cabecalho {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f8bd72;
+}
+
+.container-tabela-promocoes .espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+}
+
+.container-tabela-promocoes .espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+.container-tabela-promocoes .cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.tabela-promocoes {
+    padding: 40px 20px;
+    margin-left: 30px;
+}
+
+.tabela-promocoes h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 22px 0 25px;
+    position: relative;
+    left: -20px;
+}
+
+.tabela-container {
+    width: 416px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -30px;
+    overflow-x: auto;
+    border: 1px solid #d0d0d0;
+    border-radius: 7px;
+}
+
+.tabela-container table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.tabela-container th {
+    background: #f5a4d0;
+    color: white;
+    font-weight: bold;
+    padding: 9px 5px;
+    height: 29px;
+    box-sizing: border-box;
+    border-right: 1px solid #e8b4d0;
+}
+
+
+.container-ver-promocoes {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes-promocoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -20px;
+    top: 300px;
+}
+.botoes-promocoes button {
+    font-size: 16px;
+}
+
+.tabela-container th:last-child {
+    border-right: none;
+}
+
+.tabela-container td {
+    height: 29px;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    box-sizing: border-box;
+}
+
+.tabela-container td:last-child {
+    border-right: none;
+}
+
+.tabela-container tbody tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+.tabela-container tbody tr:nth-child(odd) {
+    background: white;
+}
+
+.voltar-promocoes {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    min-width: 115px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 9px;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container-ver-promocoes .espaco-logo {
+        margin-left: 5%;
+    }
+
+    .container-ver-promocoes .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    .tabela-promocoes {
+        padding: 30px 15px;
+    }
+
+    .tabela-promocoes h2 {
+        margin-top: 20px;
+    }
+
+    .tabela-promocoes h3,
+    .tabela-container {
+        left: 0;
+    }
+
+    .tabela-container {
+        width: 100%;
+    }
+
+    .voltar-promocoes {
+        left: 15px;
+    }
+}
+
+.container-cliente {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+}
+
+
+.tabela-promocoes table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tabela-promocoes th,
+.tabela-promocoes td {
+    overflow-wrap: break-word;
+}
+
+.tabela-promocoes td input {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.container-cliente .cabecalho {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f8bd72;
+}
+
+.container-cliente .espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+}
+
+.container-cliente .espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+.container-cliente .cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.cadastro-cliente {
+    padding: 40px 20px;
+}
+
+.cadastro-cliente h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 18px 0 55px;
+}
+
+#formCliente {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -85px;
+}
+
+#formCliente .campo {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+#formCliente .campo label {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+}
+
+#formCliente .campo input {
+    display: block;
+    width: 100%;
+    height: 24px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+#formCliente .botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.8cm;
+    margin: 180px 0 0 0;
+}
+
+#formCliente .botoes-cadastro button[type="submit"] {
+position: relative;
+left: 80px;
+}
+
+#formCliente .botoes-cadastro button {
+    min-width: 108px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#formCliente .botoes-cadastro button:first-child {
+    position: fixed;
+    bottom: 60px;
+    left: 3%;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .container-cliente .espaco-logo {
+        margin-left: 5%;
+    }
+
+    .container-cliente .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    #formCliente {
+        width: 100%;
+        left: 0;
+    }
+
+    #formCliente .campo {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+
+    #formCliente .campo label {
+        text-align: left;
+    }
+
+    #formCliente .botoes-cadastro {
+        margin: 60px 0 0;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #formCliente .botoes-cadastro button:first-child {
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+
+    .container-vendas {
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+    }
+
+    .container-vendas .cabecalho {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: #f8bd72;
+    }
+
+    .container-vendas .espaco-logo {
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: 36%;
+    }
+
+    .container-vendas .espaco-logo img {
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+    }
+
+    .container-vendas .cabecalho h1 {
+    margin-left: 12px;
+    font-size: 26px;
+    font-weight: normal;
+    }
+
+    .container-vendas .cadastro-vendas {
+    padding: 70px 20px 40px;
+    }
+
+    .container-vendas .cadastro-vendas h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 65px;
+    position: relative;
+    left: -10px;
+    }
+
+    #formVenda {
+    width: 520px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -85px;
+    box-sizing: border-box;
+    }
+
+    #formVenda .campo {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 23px;
+    }
+
+    #formVenda .campo label {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+    }
+
+    #formVenda .campo input,
+    #formVenda .campo select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    }
+
+    #formVenda .botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 285px;
+    margin: 160px 0 0;
+    }
+
+    #formVenda .botoes-cadastro button {
+    min-width: 120px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+   .container-vendas #formVenda .botoes-cadastro button:first-child {
+        position: fixed;
+        left: 30px;
+        bottom: 50px;
+        margin: 0;
+        z-index: 10;
+    }
+
+    #formVenda .botoes-cadastro button[type="submit"] {
+    position: relative;
+    left: 70px;
+    }
+
+    @media (max-width: 600px) {
+    .container-vendas .espaco-logo {
+    margin-left: 5%;
+    }
+
+    .container-vendas .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    .container-vendas .cadastro-vendas {
+        padding: 40px 15px;
+    }
+
+    .container-vendas .cadastro-vendas h2 {
+        margin-bottom: 40px;
+    }
+
+    #formVenda {
+        width: 100%;
+        left: 0;
+    }
+
+    #formVenda .campo {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+
+    #formVenda .campo label {
+        text-align: left;
+    }
+
+    #formVenda .botoes-cadastro {
+        margin-top: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #formVenda .botoes-cadastro button:first-child {
+        position: fixed;
+        bottom: 10%;
+        left: 9%;
+        margin: 0;
+    }
+    }

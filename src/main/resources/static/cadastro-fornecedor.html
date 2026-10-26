@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiSystem - Cadastro de Fornecedores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="container-fornecedor">
+        <header class="cabecalho">
+            <div class="espaco-logo">
+                <img src="imagens/coffisystem-logo.png" alt="Logo CoffiSystem">
+            </div>
+            <h1>COFFISYSTEM</h1>
+        </header>
+
+        <section class="cadastro">
+            <h2>Cadastro de Fornecedores</h2>
+
+            <form id="formFornecedor">
+                <div class="campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone1">Telefone 1:</label>
+                    <input type="tel" id="telefone1" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone2">Telefone 2:</label>
+                    <input type="tel" id="telefone2">
+                </div>
+
+                <div class="botoes-cadastro">
+
+                    <button type="submit">
+                        Cadastrar
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <button type="button" class="botao-voltar" onclick="window.location.href='menu-contabilidade.html'">
+            Voltar
+        </button>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

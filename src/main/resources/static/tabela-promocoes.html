@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiSystem - Ver Promoções</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container-ver-promocoes">
+        <header class="cabecalho">
+            <div class="espaco-logo">
+                <img src="imagens/coffisystem-logo.png" alt="Logo CoffiSystem">
+            </div>
+            <h1>COFFISYSTEM</h1>
+        </header>
+
+        <section class="tabela-promocoes">
+            <h2>Tabela de Promoções</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Produto</th>
+                            <th>Porcentagem</th>
+                            <th>Validade da Promoção</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaPromocoes"></tbody>
+                </table>
+            </div>
+      
+            <div class="botoes-promocoes">
+                <button type="button" id="editarPromocoes">Editar</button>
+                <button type="button" id="salvarPromocoes">Salvar</button>
+                <button type="button" class="voltar-promocoes"
+                        onclick="window.location.href='cadastro-promocoes.html'">
+                    Voltar
+                </button>
+            </div>
+
+        </section>
+
+        <button class="voltar-promocoes" type="button"
+                onclick="window.location.href='cadastro-promocoes.html'">
+            Voltar
+        </button>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

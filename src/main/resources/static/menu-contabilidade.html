@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiSystem - Menu Contabilidade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container-cadastro">
+
+        <header class="cabecalho">
+            <div class="espaco-logo">
+                <img src="imagens/coffisystem-logo.png" alt="Logo CoffiSystem">
+            </div>
+            <h1>COFFISYSTEM</h1>
+        </header>
+
+        <section class="menu-contabilidade">
+            <h2>Selecione uma opção:</h2>
+
+            <div class="opcoes-contabilidade">
+                <button type="button" onclick="window.location.href='cadastro-fornecedor.html'">
+                    Cadastrar Fornecedor
+                </button>
+
+                <button onclick="window.location.href='historico-vendas.html'">
+                    Histórico de Vendas
+                </button>
+            </div>
+
+            <button type="button" class="botao-voltar" onclick="voltarLogin()">
+                Voltar
+            </button>
+        </section>
+
+    </main>
+
+    <script>
+        function voltarLogin() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
+

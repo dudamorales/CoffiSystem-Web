@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiSystem - Cadastro de Promoções</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="container-promocoes">
+
+        <header class="cabecalho">
+            <div class="espaco-logo">
+                <img src="imagens/coffisystem-logo.png" alt="Logo CoffiSystem">
+            </div>
+            <h1>COFFISYSTEM</h1>
+        </header>
+
+        <section class="cadastro-promocoes">
+            <h2>Cadastro de Promoções</h2>
+
+            <form id="formPromocao">
+
+                <div class="campo">
+                    <label for="produtoPromocao">Produto:</label>
+                    <select id="produtoPromocao" required>
+                        <option value="">Selecione um produto</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="desconto">Porcentagem de desconto (%):</label>
+                    <input type="number" id="desconto"
+                           min="1" max="100" step="1" required>
+                </div>
+
+                <div class="campo">
+                    <label for="validadePromocao">Validade da Promoção:</label>
+                    <input type="date" id="validadePromocao" required>
+                </div>
+
+                <div class="botoes-cadastro">
+                    <button type="button"
+                            onclick="window.location.href='menu-gerente.html'">
+                        Voltar
+                    </button>
+
+                    <button type="submit">Cadastrar</button>
+
+                    <button type="button"
+                            onclick="window.location.href='tabela-promocoes.html'">
+                        Ver
+                    </button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
